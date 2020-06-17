@@ -68,6 +68,10 @@
       Income & expense
 */
 
+div.row {
+  margin: 0 0;
+}
+
 .d-left,
 .d-right {
   color: #fff;
