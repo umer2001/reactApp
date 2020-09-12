@@ -12,8 +12,17 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.opacity {
+  z-index: 1;
+}
 
-.App-header {
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +44,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*
+      Balance
+*/
+
+.blnc {
+  background-color: #282b2f;
+}
+
+.blnc-p {
+  border-right: 5px #5CB65F solid;
+  border-left: 5px #5CB65F solid;
+}
+
+.blnc-n {
+  border-right: 5px #E15858 solid;
+  border-left: 5px #E15858 solid;
+}
+
+/*
+      Income & expense
+*/
+
+div.row {
+  margin: 0 0;
+}
+
+.d-left,
+.d-right {
+  color: #fff;
+  background-color: #282b2f;
+  margin: 0 4.1%;
+}
+.d-left {
+  border-bottom: 3px #5CB65F solid;
+}
+.d-right {
+  border-bottom: 3px #E15858 solid;
+}
+
+/*
+      Transection list
+*/
+
+.ex-tbl {
+  background-color: #282b2f;
+}
+
+.table {
+  color: #f3eded!important;
+}
+
+.table-hover tbody tr:hover {
+  color: #fff!important;
+}
+
+/*
+      Transection list
+*/
+
+.danger {
+  display: block;
+  border-top: none!important;
+  border-right: 5px #E15858 solid;
+  border-radius: .25rem!important;
+}
+
+.success {
+  display: block;
+  border-top: none!important;
+  border-right: 5px #5CB65F solid;
+  border-radius: .25rem!important;
+}
+
+/*
+      Add Transection
+*/
+
+.frm {
+  background-color: #282b2f;
+}
+
+.amount-help {
+  font-size: 53%;
 }
